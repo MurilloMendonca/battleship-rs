@@ -72,7 +72,7 @@ pub mod battleship {
     }
 
     fn place_random_ships(map: &mut Vec<Vec<char>>) {
-        for i in 0..NUM_SHIPS {
+        for _i in 0..NUM_SHIPS {
             let mut x: usize;
             let mut y: usize;
             let mut vertical: bool;
